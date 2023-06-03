@@ -1,19 +1,19 @@
 import React from 'react'; 
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Analytics from './components/Analytics';
-import Newsletter from './components/Newsletter';
-import Cards from './components/Cards';
+import Main from './components/Main';
+import Desc from './components/Desc';
+import Contact from './components/Contact';
+import Product from './components/Product';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <Analytics />
-      <Newsletter />
-      <Cards />
+      <Main />
+      <Desc />
+      <Contact />
+      <Product />
       <Footer />
     </div>
   );

@@ -1,7 +1,7 @@
 import React from 'react'
 // import Typed from 'react-typed'
 
-const Hero = () => {
+const Main = () => {
     return (
         <div className='text-white'>
             <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
@@ -18,4 +18,4 @@ const Hero = () => {
     )
 }
 
-export default Hero;
+export default Main;

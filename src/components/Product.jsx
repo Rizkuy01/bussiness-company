@@ -3,7 +3,7 @@ import jaket from '../assets/jaket.png'
 import lanyard from '../assets/lanyard.png'
 import totebagg from '../assets/totebagg.png'
 
-const Cards = () => {
+const Product = () => {
     return (
         <div className='w-full py-[10rem] px-4 bg-[#ECF2FF]'>
             <div className='max-w-[1240px] mx-auto grid grid-cols-3 gap-8'>
@@ -33,7 +33,7 @@ const Cards = () => {
                 <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
                     <h2 className='text-2xl font-bold text-center py-8'>LANYARD</h2>
                     <img className='w-[200px] mx-auto mt-[-3rem]' src={lanyard} alt="logo" />
-                    <p className='text-center text-4xl fornt-bold'>Rp15.000</p>
+                    <p className='text-center text-4xl font-bold'>Rp15.000</p>
                     <div className='text-center font-medium'>
                         <p className='py-2 border-b mx-8 mt-8'>Lanyard Serbaguna</p>
                         <p className='py-2 border-b mx-8'>Desain Modern & Sebagai Identitas</p>
@@ -46,4 +46,4 @@ const Cards = () => {
     )
 }
 
-export default Cards;
+export default Product;

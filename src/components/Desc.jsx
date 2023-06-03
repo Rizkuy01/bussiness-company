@@ -1,7 +1,7 @@
 import React from 'react'
 import jwlogo from '../assets/jwlogo.png'
 
-const Analytics = () => {
+const Desc = () => {
     return (
         <div className='w-full bg-[#ECF2FF] py-16 px-4'>
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
@@ -21,4 +21,4 @@ const Analytics = () => {
     )
 }
 
-export default Analytics
+export default Desc
